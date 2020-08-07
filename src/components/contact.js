@@ -5,7 +5,6 @@ export default class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = { email: "", name: "", message: "" };
-    console.log("we're in the constructor")
   }
 
   handleChange = e => {

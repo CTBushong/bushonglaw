@@ -3123,25 +3123,6 @@
           }
         }
       },
-      "fields": {
-        "title": {
-          "en-US": "rohitgupta-full"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/4bwt4pzmqo4p/5053xqiD6rGY5Z3xDASnAo/3f619b4c00f7c31bcd9f584155f5fb72/rohitgupta-full.jpg",
-            "details": {
-              "size": 25660,
-              "image": {
-                "width": 375,
-                "height": 745
-              }
-            },
-            "fileName": "rohitgupta-full.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
     },
     {
       "sys": {
@@ -3257,25 +3238,6 @@
           }
         }
       },
-      "fields": {
-        "title": {
-          "en-US": "rohitgupta"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/4bwt4pzmqo4p/4yXZnfglqynUp9M1BwYzGy/de523284336453dca7abdcf7ad39482b/rohitgupta.jpg",
-            "details": {
-              "size": 1762810,
-              "image": {
-                "width": 2176,
-                "height": 2176
-              }
-            },
-            "fileName": "rohitgupta.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
     },
     {
       "sys": {
@@ -3324,25 +3286,6 @@
           }
         }
       },
-      "fields": {
-        "title": {
-          "en-US": "rohitgupta-white"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/4bwt4pzmqo4p/7yHuAa09NVOcZ25POk7cbM/bc1930c39aba010b01a493082ba0bc99/rohitgupta-white.png",
-            "details": {
-              "size": 1741,
-              "image": {
-                "width": 49,
-                "height": 45
-              }
-            },
-            "fileName": "rohitgupta-white.png",
-            "contentType": "image/png"
-          }
-        }
-      }
     },
     {
       "sys": {
