@@ -349,8 +349,8 @@
         }
       },
       "displayField": "title",
-      "name": "Blogs",
-      "description": "Blogs List",
+      "name": "blogs",
+      "description": "blogs List",
       "fields": [
         {
           "id": "title",
@@ -752,7 +752,7 @@
         },
         {
           "id": "twiteerHandle",
-          "name": "Twiteer Handle",
+          "name": "Twitter Handle",
           "type": "Symbol",
           "localized": false,
           "required": false,
@@ -789,7 +789,7 @@
                 "in": [
                   "About",
                   "Service",
-                  "Blogs",
+                  "blogs",
                   "Work",
                   "Testimonials",
                   "Photos",
@@ -1967,10 +1967,10 @@
       },
       "fields": {
         "siteName": {
-          "en-US": "Rohit Gupta"
+          "en-US": "Bushong Law"
         },
         "siteUrl": {
-          "en-US": "https://rg-portfolio.netlify.com"
+          "en-US": "https://bushonglaw.com"
         },
         "logo": {
           "en-US": {
@@ -1982,14 +1982,14 @@
           }
         },
         "twiteerHandle": {
-          "en-US": "@rohitguptab"
+          "en-US": "@bushonglaw"
         },
         "siteDescription": {
           "en-US": "Personal Site"
         },
         "menus": {
           "en-US": [
-            "Blogs",
+            "blogs",
             "Photos",
             "About",
             "Contact",
@@ -2056,10 +2056,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 1"
+          "en-US": "blogs Title 1"
         },
         "slug": {
-          "en-US": "blog-title-1"
+          "en-US": "blogs-title-1"
         },
         "featureImage": {
           "en-US": {
@@ -2131,10 +2131,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 2"
+          "en-US": "blogs Title 2"
         },
         "slug": {
-          "en-US": "blog-title-2"
+          "en-US": "blogs-title-2"
         },
         "featureImage": {
           "en-US": {
@@ -2206,10 +2206,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 3"
+          "en-US": "blogs Title 3"
         },
         "slug": {
-          "en-US": "blog-title-3"
+          "en-US": "blogs-title-3"
         },
         "featureImage": {
           "en-US": {
@@ -2281,10 +2281,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 4"
+          "en-US": "blogs Title 4"
         },
         "slug": {
-          "en-US": "blog-title-4"
+          "en-US": "blogs-title-4"
         },
         "featureImage": {
           "en-US": {
@@ -2356,10 +2356,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 5"
+          "en-US": "blogs Title 5"
         },
         "slug": {
-          "en-US": "blog-title-5"
+          "en-US": "blogs-title-5"
         },
         "featureImage": {
           "en-US": {
@@ -2431,10 +2431,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 6"
+          "en-US": "blogs Title 6"
         },
         "slug": {
-          "en-US": "blog-title-6"
+          "en-US": "blogs-title-6"
         },
         "featureImage": {
           "en-US": {
@@ -2506,10 +2506,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Blog Title 7"
+          "en-US": "blogs Title 7"
         },
         "slug": {
-          "en-US": "blog-title-7"
+          "en-US": "blogs-title-7"
         },
         "featureImage": {
           "en-US": {
@@ -3013,10 +3013,10 @@
       },
       "fields": {
         "name": {
-          "en-US": "Rohit Gupta"
+          "en-US": "Chris Bushong"
         },
         "designation": {
-          "en-US": "Front-end Developer"
+          "en-US": "Tax Attorney"
         },
         "photo": {
           "en-US": {
@@ -3050,13 +3050,6 @@
               "id": "3jZ2ne8tOyoN7s3Yem2Hqm"
             }
           }
-        },
-        "bannerList": {
-          "en-US": [
-            "Designer",
-            "Developer",
-            "Gamer"
-          ]
         },
         "location": {
           "en-US": "Gujarat, India"

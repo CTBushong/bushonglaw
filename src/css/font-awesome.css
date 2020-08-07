@@ -700,15 +700,15 @@ readers do not read off random characters that represent icons */
   content: "\f29d";
 }
 
-.fa-blog:before {
+.fa-blogs:before {
   content: "\f781";
 }
 
-.fa-blogger:before {
+.fa-blogsger:before {
   content: "\f37c";
 }
 
-.fa-blogger-b:before {
+.fa-blogsger-b:before {
   content: "\f37d";
 }
 

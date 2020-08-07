@@ -3,29 +3,19 @@ import { graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-
 import Banner from "../components/banner";
 import About from "../components/about";
 import Service from "../components/service";
-import Work from "../components/work";
-import Blogs from "../components/blogs";
-import Testimonial from "../components/testimonial";
+//import Blogs from "../components/blogs";
 import Contact from "../components/contact";
-import Photos from "../components/photos";
 
 const IndexPage = ({ data }) => (
   <Layout header="home">
     <SEO
-      title={data.contentfulAboutMe.designation}
-      keywords={[`Rohit Gupta`, `Frontend Developer`, `Developer`]}
+      title="Tax Attorney"
+      keywords={[`Chris Bushong`, `Bushong`, `Tax Law`, `Tax Attorney`]}
     />
     <Banner data={data.contentfulAboutMe}></Banner>
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "About")
-      .map(t => {
-        return <About data={data.contentfulAboutMe}></About>;
-      })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Service")
@@ -34,30 +24,19 @@ const IndexPage = ({ data }) => (
       })}
 
     {data.contentfulSiteInformation.menus
+      .filter(item => item === "About")
+      .map(t => {
+        return <About data={data.contentfulAboutMe}></About>;
+      })}
+      
+    {/*
+    {data.contentfulSiteInformation.menus
       .filter(item => item === "Blogs")
       .map(t => {
         return <Blogs data={data.allContentfulBlogs}></Blogs>;
       })}
+    */}
 
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Work")
-      .map(t => {
-        return <Work data={data.allContentfulWorks}></Work>;
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Testimonials")
-      .map(t => {
-        return (
-          <Testimonial data={data.allContentfulTestimonials}></Testimonial>
-        );
-      })}
-
-    {data.contentfulSiteInformation.menus
-      .filter(item => item === "Photos")
-      .map(t => {
-        return <Photos data={data.contentfulPhotos}></Photos>;
-      })}
 
     {data.contentfulSiteInformation.menus
       .filter(item => item === "Contact")
