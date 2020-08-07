@@ -38,8 +38,9 @@ export default class Contact extends Component {
         <div className="container">
           <div className="section-head">
             <h2 className="text-center">Message Me</h2>
-            <div>
-            Email me at <a href="mailto:Chris@BushongLaw.com">Chris@BushongLaw.com</a> or fill out the form below.
+            <div style={{height:"2.5em"}}></div>
+            <div style={{"font-size":"1.2em"}}>
+              Email me at <a href="mailto:Chris@BushongLaw.com">Chris@BushongLaw.com</a> or fill out the form below.
             </div>
           </div>
           <form
