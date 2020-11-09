@@ -15,7 +15,7 @@ export default class footer extends Component {
         </Link>
         </div>
         <div style={{"float":"right"}}>
-          <h4 style={{color:"#fff", display:"inline-block", "margin-top":"10px", "margin-right":"1em"}}>Copyright 2020 [Our Marketing Company]</h4>
+          <h4 style={{color:"#fff", display:"inline-block", "margin-top":"10px", "margin-right":"1em"}}>© 2020 Bushong Law</h4>
         </div>
       </div>
     );

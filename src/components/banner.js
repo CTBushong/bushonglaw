@@ -11,9 +11,9 @@ export default class Banner extends Component {
           objectFit="cover"
           objectPosition="50% 50%"
         />
-        <div className="container">
-          <div className="banner-details">
-            <h1>Hi, I'm Chris.</h1>
+        <div className="container" >
+          <div className="banner-details" style={{"visibility":"hidden"}}>
+            <h1 >Hi, I'm Chris.</h1>
             <span>I'm a tax attorney who helps small businesses.</span>
           </div>
         </div>
